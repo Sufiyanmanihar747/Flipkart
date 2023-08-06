@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: #2874f0;
+    color: white;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 120px;
+    padding: 16px 0px;
+    margin: -13px 0px;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 16px 0px;
+}
+
+.search-bar {
+    width: 374px;
+    margin: 0px 6px;
+    height: 29px;
+    text-align: center;
+}
+
+.button {
+    width: 75px;
+    background-color: #0059eb;
+    height: 29px;
+    color: white;
+    margin: 0px 6px;
+}
+
+.link-color {
+    color: white;
+    text-decoration: none;
+}
+
+.link-color:hover {
+    background-color: #3d41ad;
+    text-transform: uppercase;
+}
+
+.container {
+    min-height: calc(100vh - 52px - 18vh);
+}
+
+.slider {
+    margin: 8px auto;
+    width: 73vw;
+}
+
+
+.card {
+    max-width: 86vw;
+    margin: auto;
+    overflow: scroll;
+    
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8px 35px;
+}
+
+.m-1 {
+    margin: 12px 0px;
+}
+
+.text-align {
+    text-align: center;
+    width: 10vw;
+}
+
+.foot {
+    background-color: #2874f0;
+    color: white;
+    text-align: center;
+}
+
+@keyframes flip {
+    from {
+
+        transform: scaleX(1);
+    }
+
+    to {
+
+        transform: scaleX(-1)
+    }
+
+}
+
+img {
+    animation: flip 1s 4s 2 reverse;
+}
+
+img:hover {
+    /* animation: flip 1s  1 reverse ; */
+    animation: widthAnimation 2s ease-out ;
+}
+
+@keyframes widthAnimation {
+    from {
+        width: auto;
+        height: auto;
+    }
+
+    to {
+        width: 60vw;
+        height: auto;
+    }
+}
+
+.green-colour {
+    color: rgb(80, 212, 80);
+}

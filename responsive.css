@@ -1,0 +1,41 @@
+@media screen and (max-width:1072px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 144px;
+        padding: 26px 103px;
+        margin: -25px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li {
+        padding: 0px 11px;
+        margin: 10px 15px;
+    }
+
+    .search-bar {
+        width: 95vw;
+    }
+
+    .slider {
+        position: relative;
+        left: -41px;
+        height: 41vh;
+    }
+
+    .slider img {
+        width: 94vw
+    }
+
+
+    .cards {
+        display: flex;
+flex-direction: row;
+    }
+
+}
